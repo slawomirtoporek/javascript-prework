@@ -17,14 +17,6 @@ console.log('Wylosowana liczba to: ' + randomNumber);
 
 let computerMove = getMoveName(randomNumber);
 
-/*if (randomNumber == 1) {
-  computerMove = 'kamień';
-} else if (randomNumber == 2) {
-    computerMove = 'papier';
-} else if (randomNumber == 3) {
-    computerMove = 'nożyce';
-}*/
-
 printMessage('Mój ruch to: ' + computerMove);
 
 
@@ -34,31 +26,8 @@ console.log('Gracz wpisał: ' + playerInput);
 
 let playerMove = getMoveName(playerInput);
 
-/*if (playerInput == '1') {
-  playerMove = 'kamień';
-} else if (playerInput == '2') {
-    playerMove = 'papier';
-} else if (playerInput == '3') {
-    playerMove = 'nożyce';
-} else {
-    playerMove;
-}*/
-
 printMessage('Twój ruch to: ' + playerMove);
 
-/*if (computerMove == 'kamień' && playerMove == 'papier') {
-    printMessage('Ty wygrywasz!');
-} else if (computerMove == 'nożyce' && playerMove == 'kamień') {
-    printMessage('Ty wygrywasz!');
-} else if (computerMove == 'papier' && playerMove == 'nożyce') {
-    printMessage('Ty wygrywasz!');
-} else if (computerMove == playerMove) {
-    printMessage('Remis!');
-} else if (playerMove == 'nieznany ruch') {
-    printMessage('Nieznany ruch, zagraj ponownie!')
-} else {
-    printMessage('Przegrałeś!');
-}*/
 
 function displayResult(argComputerMove, argPlayerMove){
     if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
