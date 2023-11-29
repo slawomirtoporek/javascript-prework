@@ -21,7 +21,7 @@ function playGame(playerInput){
 
     printMessage('Mój ruch to: ' + computerMove);
 
-    
+
     console.log('Gracz wpisał: ' + playerInput);
 
     let playerMove = getMoveName(playerInput);
@@ -49,11 +49,11 @@ function playGame(playerInput){
 }
 
 document.getElementById('play-rock').addEventListener('click', function(){
-    playGame(1)('Wybrałeś kamień');
+    playGame(1);
   });
 document.getElementById('play-paper').addEventListener('click', function(){
-    playGame(2)('Wybrałeś papier');
+    playGame(2);
   });
 document.getElementById('play-scissors').addEventListener('click', function(){
-    playGame(3)('Wybrałeś nożyce');
+    playGame(3);
   });
