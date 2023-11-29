@@ -2,7 +2,10 @@
 
 $color-one: orange; //rock
 $color-two: blue; // scissors
-$color-three: #dede16; // paper
+$color-three: #b60033; // paper
+$color-four: #ffffff; // white
+
+$text-shadow: 1px 1px 2px darkgray;
 
 /* Global */
 
@@ -49,7 +52,7 @@ $color-three: #dede16; // paper
     .btn {
         margin-bottom: 40px;
         .btn-choose {
-            color: #fff;
+            color: $color-four;
             padding: 12px 30px;
             border-radius: 7px;
             border: none;
@@ -65,8 +68,23 @@ $color-three: #dede16; // paper
         .btn-three {
             background-color: $color-two;
         }
-        .btn-one:hover, .btn-two:hover, .btn-three:hover {
-            opacity: 0.7;
+        .btn-one:hover {
+            color: $color-one;
+            background-color: $color-four;
+            border: 1px solid $color-one;
+            text-shadow: $text-shadow;
+        }
+        .btn-two:hover {
+            color: $color-three;
+            background-color: $color-four;
+            border: 1px solid $color-three;
+            text-shadow: $text-shadow;
+        }
+        .btn-three:hover {
+            color: $color-two;
+            background-color: $color-four;
+            border: 1px solid $color-two;
+            text-shadow: $text-shadow;
         }
     }
     .game-message {
