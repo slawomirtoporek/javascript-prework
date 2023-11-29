@@ -1,0 +1,79 @@
+/* Veriables */
+
+$color-one: orange; //rock
+$color-two: blue; // scissors
+$color-three: #dede16; // paper
+
+/* Global */
+
+.color-one {
+    color:$color-one
+}
+.color-two {
+    color: $color-two;
+}
+.color-three {
+    color: $color-three;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Game description */
+
+.game-description {
+    .game-name {
+        padding: 50px 0;
+        color: darkgray;
+    }
+    .game-rules {
+        padding-bottom: 30px;
+        .title-game-rules {
+            color: green;
+        }
+        li {
+            padding-left: 10px;
+        }
+    }
+}
+
+/* section play-game */
+
+.play-game {
+    text-align: center;
+    .game-command {
+        color: lightgreen;
+    }
+    .btn {
+        margin-bottom: 40px;
+        .btn-choose {
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 7px;
+            border: none;
+            font-size: 16px;
+            margin: 0 20px;
+        }
+        .btn-one {
+            background-color: $color-one;
+        }
+        .btn-two {
+            background-color: $color-three;
+        }
+        .btn-three {
+            background-color: $color-two;
+        }
+        .btn-one:hover, .btn-two:hover, .btn-three:hover {
+            opacity: 0.7;
+        }
+    }
+    .game-message {
+        color: green;
+        line-height: 35px;
+        font-size: 25px;
+    }
+}
+
+

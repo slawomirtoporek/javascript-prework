@@ -1,0 +1,71 @@
+/* Veriables */
+/* Global */
+.color-one {
+  color: orange;
+}
+
+.color-two {
+  color: blue;
+}
+
+.color-three {
+  color: #dede16;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Game description */
+.game-description .game-name {
+  padding: 50px 0;
+  color: darkgray;
+}
+.game-description .game-rules {
+  padding-bottom: 30px;
+}
+.game-description .game-rules .title-game-rules {
+  color: green;
+}
+.game-description .game-rules li {
+  padding-left: 10px;
+}
+
+/* section play-game */
+.play-game {
+  text-align: center;
+}
+.play-game .game-command {
+  color: lightgreen;
+}
+.play-game .btn {
+  margin-bottom: 40px;
+}
+.play-game .btn .btn-choose {
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  margin: 0 20px;
+}
+.play-game .btn .btn-one {
+  background-color: orange;
+}
+.play-game .btn .btn-two {
+  background-color: #dede16;
+}
+.play-game .btn .btn-three {
+  background-color: blue;
+}
+.play-game .btn .btn-one:hover, .play-game .btn .btn-two:hover, .play-game .btn .btn-three:hover {
+  opacity: 0.7;
+}
+.play-game .game-message {
+  color: green;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUVBO0VBQ0ksYUFQUTtBQ0VaOztBRE9BO0VBQ0ksV0FUUTtBQ0taOztBRE1BO0VBQ0ksY0FYVTtBQ1FkOztBRE1BO0VBQ0ksY0FBQTtFQUNBLGdCQUFBO0FDSEo7O0FETUEscUJBQUE7QUFHSTtFQUNJLGVBQUE7RUFDQSxlQUFBO0FDTFI7QURPSTtFQUNJLG9CQUFBO0FDTFI7QURNUTtFQUNJLFlBQUE7QUNKWjtBRE1RO0VBQ0ksa0JBQUE7QUNKWjs7QURTQSxzQkFBQTtBQUVBO0VBQ0ksa0JBQUE7QUNQSjtBRFFJO0VBQ0ksaUJBQUE7QUNOUjtBRFFJO0VBQ0ksbUJBQUE7QUNOUjtBRE9RO0VBQ0ksV0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGNBQUE7QUNMWjtBRE9RO0VBQ0ksd0JBekRBO0FDb0RaO0FET1E7RUFDSSx5QkExREU7QUNxRGQ7QURPUTtFQUNJLHNCQTlEQTtBQ3lEWjtBRE9RO0VBQ0ksWUFBQTtBQ0xaO0FEUUk7RUFDSSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0FDTlIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
