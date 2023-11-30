@@ -3,24 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container">
 		<section class="game-description">
 			<h1 class="game-name">
-				Witaj w grze - 
-				<span class="color-one">Kamień, </span> 
-				<span class="color-two">nożyce,</span>
+				Witaj w grze - <span class="color-one">Kamień, </span> /
+				<span class="color-two">nożyce,</span> /
 				<span class="color-three"> papier.</span>
 			</h1>
 			<div class="game-rules">
 				<h2 class="title-game-rules">Zasady gry.</h2>
-				<p>Każdy gracz może wybrać jeden z ruchów: 
-					<span class="color-three">papier, </span>
-					<span class="color-one">kamień, </span>
-					lub 
+				<p>Każdy gracz może wybrać jeden z ruchów: /
+					<span class="color-three">papier, </span> /
+					<span class="color-one">kamień, </span> /
+					lub /
 					<span class="color-two">nożyce</span>.</p>
 				<p>Wynik rundy może być następujący:</p>
 				<ul>
@@ -28,15 +27,15 @@
 						remis - jeśli obaj gracze wybrali ten sam ruch,
 					</li>
 					<li>
-						wygrana gracza, który zagrał <span class="color-three">papier,</span> 
+						wygrana gracza, który zagrał <span class="color-three">papier,</span> /
 						jeśli drugi gracz zagrał <span class="color-one">kamień,</span>
 					</li>
 					<li>
-						wygrana gracza, który zagrał <span class="color-one">kamień,</span> 
+						wygrana gracza, który zagrał <span class="color-one">kamień,</span> /
 						jeśli drugi gracz zagrał <span class="color-two">nożyce,</span>
 					</li>
 					<li>
-						wygrana gracza, który zagrał <span class="color-two">nożyce,</span> 
+						wygrana gracza, który zagrał <span class="color-two">nożyce,</span> /
 						jeśli drugi gracz zagrał <span class="color-three">papier.</span>
 					</li>
 				</ul>
@@ -46,9 +45,9 @@
 		<section class="play-game">
 			<h2 class="game-command">Kliknij jeden z poniższych przycisków, w celu rozpoczęcia gry: </h2>
 			<div class="btn" id="buttons">
-				<button class="btn-one btn-choose" id="play-rock">Kamień</button>
-				<button class="btn-two btn-choose" id="play-paper">Papier</button>
-				<button class="btn-three btn-choose" id="play-scissors">Nożyce</button>
+				<button class="btn-one btn-choose" id="play-rock" type="button">Kamień</button>
+				<button class="btn-two btn-choose" id="play-paper" type="button">Papier</button>
+				<button class="btn-three btn-choose" id="play-scissors" type="button">Nożyce</button>
 			</div>
 			<div class="game-message" id="messages"></div>
 		</section>
